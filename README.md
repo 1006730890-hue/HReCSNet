@@ -38,14 +38,6 @@ Saliency maps are written to `<out-root>/predictions/<DATASET>/`.
 Inference runs the saliency head only; the five auxiliary heads are training-time
 only and are not evaluated.
 
-## Evaluation
-
-```bash
-python tools/evaluate.py --pred-dir <out-root>/predictions/EORSSD --gt-dir <gt-dir> --dataset EORSSD
-```
-
-The evaluation follows the same protocol as the paper.
-
 ## License
 
 MIT License.
