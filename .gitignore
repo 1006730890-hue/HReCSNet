@@ -1,0 +1,38 @@
+﻿# ---- 数据与权重（走 Release / 网盘，不进 git）----
+outputs/
+predictions/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# ---- 数据集与第三方显著图（无再分发许可）----
+data/
+datasets/
+external_sota_maps/
+sota_maps/
+
+# ---- 本地产物 ----
+tmp/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.pdf
+!docs/**/*.pdf
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# ---- 编辑器/系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
