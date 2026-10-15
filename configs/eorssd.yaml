@@ -16,9 +16,3 @@ inference:
   batch_size: 1
   save_format: png
   only_sal: true
-
-paper:
-  Smeasure: 0.9473
-  maxF: 0.9016
-  maxE: 0.9832
-  MAE: 0.0043
