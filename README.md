@@ -1,13 +1,5 @@
 # HReCSNet
 
-[TGRS 2026 under review] HReCSNet: Cross-Scale High-Frequency Recalibration and Region-Boundary-Error Collaborative Supervision for Lightweight ORSI Salient Object Detection
-
-## Network Architecture
-
-<div align=center>
-<img src="image/HReCSNet.png" width="90%">
-</div>
-
 ## Requirements
 
 python 3.10+ / pytorch 2.0+ / timm / py_sod_metrics
