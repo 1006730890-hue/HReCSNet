@@ -54,16 +54,6 @@ python tools/evaluate.py --pred-dir <out-root>/predictions/EORSSD --gt-dir <gt-d
 
 The evaluation follows the same protocol as the paper.
 
-## Citation
-
-```bibtex
-@article{hrecsnet,
-  title   = {HReCSNet: Cross-Scale High-Frequency Recalibration and Region-Boundary-Error Collaborative Supervision for Lightweight ORSI Salient Object Detection},
-  journal = {IEEE Transactions on Geoscience and Remote Sensing},
-  year    = {2026}
-}
-```
-
 ## License
 
 MIT License.
