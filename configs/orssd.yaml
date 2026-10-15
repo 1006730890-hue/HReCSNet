@@ -1,0 +1,24 @@
+# HReCSNet — ORSSD (200 test images)
+# Test-set directory convention follows the research training/inference scripts:
+# every path under `data` is relative to --data-root (the directory containing
+# `dataset/`).  `checkpoint` is relative to the repository root.
+dataset: ORSSD
+checkpoint: weights/ORSSD.pth
+
+data:
+  name: ORSSD
+  image_size: 384
+  test_image_dir: dataset/test_dataset/ORSSD/image
+  test_mask_dir: dataset/test_dataset/ORSSD/GT
+  expected_test_pairs: 200
+
+inference:
+  batch_size: 1
+  save_format: png
+  only_sal: true
+
+paper:
+  Smeasure: 0.9563
+  maxF: 0.9296
+  maxE: 0.9891
+  MAE: 0.0060

@@ -1,4 +1,4 @@
-﻿# ---- 数据与权重（走 Release / 网盘，不进 git）----
+# ---- 数据与权重（走 Release / 网盘，不进 git）----
 outputs/
 predictions/
 checkpoints/
@@ -10,6 +10,7 @@ checkpoints/
 # ---- 数据集与第三方显著图（无再分发许可）----
 data/
 datasets/
+external/
 external_sota_maps/
 sota_maps/
 

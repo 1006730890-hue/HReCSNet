@@ -1,0 +1,24 @@
+# HReCSNet — ORSI-4199 (2199 test images)
+# Test-set directory convention follows the research training/inference scripts:
+# every path under `data` is relative to --data-root (the directory containing
+# `dataset/`).  `checkpoint` is relative to the repository root.
+dataset: ORSI-4199
+checkpoint: weights/ORSI-4199.pth
+
+data:
+  name: ORSI4199
+  image_size: 384
+  test_image_dir: dataset/ors-4199/testset/images
+  test_mask_dir: dataset/ors-4199/testset/gt
+  expected_test_pairs: 2199
+
+inference:
+  batch_size: 1
+  save_format: png
+  only_sal: true
+
+paper:
+  Smeasure: 0.8852
+  maxF: 0.8850
+  maxE: 0.9540
+  MAE: 0.0262

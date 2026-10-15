@@ -1,0 +1,9 @@
+# HReCSNet inference + evaluation requirements (Python >= 3.10)
+torch>=2.0,<3.0
+torchvision>=0.15
+timm>=0.9
+numpy>=1.24
+Pillow>=9.5
+PyYAML>=6.0
+tqdm>=4.65
+py_sod_metrics>=0.2.1

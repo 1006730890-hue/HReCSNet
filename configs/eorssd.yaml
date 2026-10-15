@@ -1,0 +1,24 @@
+# HReCSNet — EORSSD (600 test images)
+# Test-set directory convention follows the research training/inference scripts:
+# every path under `data` is relative to --data-root (the directory containing
+# `dataset/`).  `checkpoint` is relative to the repository root.
+dataset: EORSSD
+checkpoint: weights/EORSSD.pth
+
+data:
+  name: EORSSD
+  image_size: 384
+  test_image_dir: dataset/test_dataset/EORSSD/image
+  test_mask_dir: dataset/test_dataset/EORSSD/GT
+  expected_test_pairs: 600
+
+inference:
+  batch_size: 1
+  save_format: png
+  only_sal: true
+
+paper:
+  Smeasure: 0.9473
+  maxF: 0.9016
+  maxE: 0.9832
+  MAE: 0.0043
