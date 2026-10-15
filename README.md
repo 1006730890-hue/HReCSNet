@@ -36,8 +36,8 @@ Three-dataset mean $S_\alpha$: **0.9296**.
 | EORSSD    | 600  | 0.947292 | 0.901629 | 0.983165 | 0.004336 |
 | ORSI-4199 | 2199 | 0.885244 | 0.884964 | 0.954029 | 0.026215 |
 
-Every column agrees with the paper table to four decimals (max deviation
-$1.4\times10^{-5}$).
+Every column agrees with the paper table to four decimals (largest deviation
+$4.9\times10^{-5}$).
 
 ---
 
